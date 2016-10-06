@@ -7,7 +7,6 @@ git clone https://github.com/Lifemotion/Bwl.Imaging
 git clone https://github.com/Lifemotion/Bwl.Storage.UniversalORM
 git clone https://github.com/Lifemotion/Bwl.Network.Transport
 git clone https://github.com/Lifemotion/Bwl.Hardware.Serial
-git clone https://github.com/Lifemotion/Bwl.SimplSerial.NET
 git clone https://github.com/Lifemotion/Bwl.Video
 
 cd Bwl.Framework
