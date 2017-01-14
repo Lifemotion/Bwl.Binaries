@@ -56,3 +56,4 @@ call !build.cmd
 xcopy debug\dll ..\fw4.5-debug\bwl-video\
 xcopy release\dll ..\fw4.5-release\bwl-video\
 cd ..
+pause
