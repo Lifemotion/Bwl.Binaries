@@ -23,8 +23,6 @@ git pull
 call !build-all.cmd
 xcopy debug\dll ..\fw4.5-debug\bwl-imaging\
 xcopy release\dll ..\fw4.5-release\bwl-imaging\
-xcopy debug\dll-mono ..\fw4.0-debug\bwl-imaging\
-xcopy release\dll-mono ..\fw4.0-release\bwl-imaging\
 cd ..
 
 cd Bwl.Storage.UniversalORM
@@ -36,7 +34,7 @@ cd ..
 
 cd Bwl.Network.Transport
 git pull
-call !build-all.cmd
+call !build.cmd
 xcopy debug\bwl-network-transport ..\fw4.5-debug\bwl-network-transport\
 xcopy release\bwl-network-transport ..\fw4.5-release\bwl-network-transport\
 cd ..
@@ -46,8 +44,8 @@ git pull
 call !build-all.cmd
 xcopy debug\dll ..\fw4.5-debug\bwl-hardware-serial\
 xcopy release\dll ..\fw4.5-release\bwl-hardware-serial\
-xcopy debug\dll-mono ..\fw4.0-debug\bwl-hardware-serial\
-xcopy release\dll-mono ..\fw4.0-release\bwl-hardware-serial\
+xcopy debug\dll-fw4 ..\fw4.0-debug\bwl-hardware-serial\
+xcopy release\dll-fw4 ..\fw4.0-release\bwl-hardware-serial\
 cd ..
 
 cd Bwl.Video
